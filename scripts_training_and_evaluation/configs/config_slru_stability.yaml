@@ -1,0 +1,64 @@
+metadata:
+  experiment: 20251002_stability7_simulation_lru_v1
+  run: slru_lstm20x4_eval20_b128_dr0-20_lr0-002_obs-end_injleak2
+  init_weights: null
+
+dataset:
+  input_names:
+    - "defects"
+    - "leakage_flags"
+    - "obs-definition-end"
+  basis: "Z"
+  distance: 3
+  train:
+    rounds: [3, 4, 7, 10, 13, 16, 19, 22, 25, 28]
+    states: ['0000', '0001', '0010', '0011', '0100', '0101', '0110', '0111', '1000', '1001', '1010', '1011', '1100', '1101', '1110', '1111']
+    injleak: 2
+  folder_format_name: stability_a4_r{num_rounds}_s{state}_b{basis}_injleak{injleak}
+  val:
+    rounds: [3, 4, 7, 10, 13, 16, 19, 22, 25, 28]
+    states: ['0000', '0001', '0010', '0011', '0100', '0101', '0110', '0111', '1000', '1001', '1010', '1011', '1100', '1101', '1110', '1111']
+    injleak: 2
+  test:
+    rounds: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+    states: ['0000', '0001', '0010', '0011', '0100', '0101', '0110', '0111', '1000', '1001', '1010', '1011', '1100', '1101', '1110', '1111']
+    injleak: 2
+    shots: 1000
+train:
+  optimizer:
+    learning_rate: 0.002
+  loss:
+    main_output: binary_crossentropy
+  loss_weights:
+    main_output: 1.0
+    aux_output: 0.5
+  metrics:
+    main_output: accuracy
+  callbacks:
+    early_stop:
+      monitor: val_loss
+      mode: min
+      min_delta: 0
+      patience: 100
+    csv_log:
+      append: false
+    checkpoint:
+      monitor: val_loss
+      mode: min
+      save_best_only: true
+
+  epochs: 500
+  batch_size: 128
+
+model:
+  type: LSTM-stability
+
+  LSTM:
+    units: [20, 20, 20, 20]
+    dropout_rates: [0.20, 0.20, 0.20, 0.20]
+
+  main_eval_final:
+    units: [20, 1]
+    dropout_rates: [0.20, null]
+    l2_factor: null
+

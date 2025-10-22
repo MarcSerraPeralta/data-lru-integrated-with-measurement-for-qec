@@ -1,0 +1,58 @@
+absl-py @ file:///tmp/build/spack-stage/spack-stage-py-absl-py-1.4.0-d6ea23yetsu6t2qezkdgdgbz2uyx67h6/spack-src
+asteval==1.0.6
+astunparse @ file:///tmp/build/spack-stage/spack-stage-py-astunparse-1.6.3-jk5t37b5eg5v7o46cvceqy4r3m5wtno7/spack-src
+certifi @ file:///tmp/build/spack-stage/spack-stage-py-certifi-2023.7.22-35ho7xsmedsc5njjvdlkeg3s3ehphkvm/spack-src
+cftime==1.6.4.post1
+charset-normalizer @ file:///tmp/build/spack-stage/spack-stage-py-charset-normalizer-3.3.0-gjf6dasozwvaddqk7gv7ism3wxpteiam/spack-src
+contourpy==1.3.2
+cycler==0.12.1
+dill==0.4.0
+flatbuffers @ file:///tmp/build/spack-stage/spack-stage-py-flatbuffers-23.5.26-jzoaky3ef5a2ymcg5fe4ci25f3e5g2xj/spack-src
+fonttools==4.57.0
+gast @ file:///tmp/build/spack-stage/spack-stage-py-gast-0.5.4-lxjyjt2bppzttdo23zcqu5tdvaphqnmt/spack-src
+google-pasta @ file:///tmp/build/spack-stage/spack-stage-py-google-pasta-0.2.0-qovsnlurkuf2navzqc36ynnppiz5xyu5/spack-src
+grpcio @ file:///tmp/build/spack-stage/spack-stage-py-grpcio-1.60.1-wfurl4vytowfd4wfd6d46raanlb5cuyh/spack-src
+h5py @ file:///tmp/build/spack-stage/spack-stage-py-h5py-3.11.0-neqmgrms5pcaxk7aqiy4j7d6wtpozm2j/spack-src
+idna @ file:///tmp/build/spack-stage/spack-stage-py-idna-3.4-cecekz6l6l6nh7ooe6a6vk3uc4wsr3xp/spack-src
+keras==3.9.2
+kiwisolver==1.4.8
+libclang @ file:///tmp/build/spack-stage/spack-stage-py-libclang-16.0.0-xqpswvmhquvudo3thwghkija3fkuti3z/spack-src
+lmfit==1.3.3
+Markdown @ file:///tmp/build/spack-stage/spack-stage-py-markdown-3.4.1-zd4jc42bftzuenbmtx6std6ypf3z63d6/spack-src
+markdown-it-py==3.0.0
+MarkupSafe @ file:///tmp/build/spack-stage/spack-stage-py-markupsafe-2.1.3-pt2bcbfw2756bkkw754fb7izkd5rmr7k/spack-src
+matplotlib==3.10.1
+mdurl==0.1.2
+ml-dtypes @ file:///tmp/build/spack-stage/spack-stage-py-ml-dtypes-0.3.1-2lqhjlv3zw2q2mt2i5wcmxo6e3m3pwgw/spack-src
+namex==0.0.9
+netCDF4==1.7.2
+networkx==3.4.2
+numpy @ file:///tmp/build/spack-stage/spack-stage-py-numpy-1.24.3-pv2lnmo4zn2uh4h3mhsuvcek4ujvderg/spack-src
+opt-einsum @ file:///tmp/build/spack-stage/spack-stage-py-opt-einsum-3.3.0-ukhqpquofqf4qy5xdfwdumjlkxjqwcg7/spack-src
+optree==0.15.0
+packaging==25.0
+pandas==2.2.3
+pillow==11.2.1
+protobuf @ file:///tmp/build/spack-stage/spack-stage-py-protobuf-4.24.3-spwhcjjrswltxrqc7sbfiqfxzcqccnj4/spack-src
+pybind11 @ file:///tmp/build/spack-stage/spack-stage-py-pybind11-2.12.0-evscl7pwdx4dho6wgg45c5nvozeb6wrw/spack-src
+Pygments==2.19.1
+pyparsing==3.2.3
+python-dateutil==2.9.0.post0
+pytz==2025.2
+PyYAML==6.0.2
+qrennd @ file:///home/marcserraperal/repositories/qrennd (at commit "c2ed73e3ec6ee843293c8839bf059c63b2960e61", needs to be installed with --no-deps and removing the python version line from pyproject.toml)
+requests @ file:///tmp/build/spack-stage/spack-stage-py-requests-2.31.0-blsh6j53hy4mycbdhcofke6yumk7i2ne/spack-src
+rich==14.0.0
+scipy==1.15.2
+six @ file:///tmp/build/spack-stage/spack-stage-py-six-1.16.0-l3dqrl225a26wceswpkwvnqt7adkne3u/spack-src
+tensorboard @ file:///tmp/build/spack-stage/spack-stage-py-tensorboard-2.16.2-vg37unvzydsb3ee753uiqgbqm6zwktlt/tensorboard-2.16.2-py3-none-any.whl#sha256=9f2b4e7dad86667615c0e5cd072f1ea8403fc032a299f0072d6f74855775cc45
+tensorboard-data-server @ file:///tmp/build/spack-stage/spack-stage-py-tensorboard-data-server-0.7.0-cmnofujutkcpck3em2je5e25kwhxumce/spack-src/tensorboard_data_server-0.7.0-py3-none-manylinux2014_x86_64.whl#sha256=51000b6b15cf71bddcdcaf0af397bb9a810d2a7a470ba61b58f7fb95aac807aa
+tensorflow @ file:///tmp/build/spack-stage/spack-stage-py-tensorflow-2.16.1-a76z5e5d2hc35zqnoiw456d5wxb37ssn/spack-src/spack-build
+termcolor @ file:///tmp/build/spack-stage/spack-stage-py-termcolor-1.1.0-5j6nmmrrc7bnd4aumrssav5yxwcpulwc/spack-src
+typing_extensions @ file:///tmp/build/spack-stage/spack-stage-py-typing-extensions-4.8.0-5uwppu4267jfl4xu33ssn22gb5t3c57h/spack-src
+tzdata==2025.2
+uncertainties==3.2.3
+urllib3 @ file:///tmp/build/spack-stage/spack-stage-py-urllib3-2.1.0-dmn5nyezb3l2pvzjdy3f4yupkmseshqm/spack-src
+Werkzeug @ file:///tmp/build/spack-stage/spack-stage-py-werkzeug-3.0.0-zcqqlvcjv7wwl2xuaduu7fjbe3rsza77/spack-src
+wrapt @ file:///tmp/build/spack-stage/spack-stage-py-wrapt-1.15.0-3mkeeeb5ae6fwmblco6ye4qjdl3uxkxp/spack-src
+xarray==2025.4.0
