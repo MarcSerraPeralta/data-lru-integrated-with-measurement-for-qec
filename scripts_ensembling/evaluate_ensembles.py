@@ -7,8 +7,8 @@ import xarray as xr
 # Parameters
 EXP_NAME_LRU = "20250718_repcode_d3_exp_lru_v2"
 EXP_NAME_NLRU = "20250718_repcode_d3_exp_no_lru_v2"
-ENSEMBLES_LRU = ... # copy paste from f"{EXP_NAME_LRU}.txt" file
-ENSEMBLES_NLRU = ... # copy paste from f"{EXP_NAME_NLRU}.txt" file
+ENSEMBLES_LRU = ... # copy paste from f"ensembles/{EXP_NAME_LRU}.txt" file
+ENSEMBLES_NLRU = ... # copy paste from f"ensembles/{EXP_NAME_NLRU}.txt" file
 
 TEST_DATASET = "test"
 
