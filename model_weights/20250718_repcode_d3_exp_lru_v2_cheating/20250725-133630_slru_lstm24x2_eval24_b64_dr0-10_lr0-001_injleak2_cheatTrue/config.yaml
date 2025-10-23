@@ -1,0 +1,150 @@
+dataset:
+  basis: Z
+  distance: 3
+  folder_format_name: repcode_d{distance}_r{num_rounds}_s{state}_b{basis}_injleak{injleak}_cheat{cheat}
+  input_names:
+  - defects
+  - outcomes
+  - leakage_flags
+  test:
+    cheat: true
+    injleak: 2
+    rounds:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 7
+    - 8
+    - 10
+    - 13
+    - 16
+    - 21
+    - 26
+    - 33
+    - 42
+    - 53
+    - 68
+    - 87
+    - 108
+    shots: 5730
+    states:
+    - '000'
+    - '001'
+    - '010'
+    - '011'
+    - '100'
+    - '101'
+    - '110'
+    - '111'
+  train:
+    cheat: true
+    injleak: 2
+    rounds:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 7
+    - 8
+    - 10
+    - 13
+    - 16
+    - 21
+    - 26
+    - 33
+    - 42
+    states:
+    - '000'
+    - '001'
+    - '010'
+    - '011'
+    - '100'
+    - '101'
+    - '110'
+    - '111'
+  val:
+    cheat: true
+    injleak: 2
+    rounds:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 7
+    - 8
+    - 10
+    - 13
+    - 16
+    - 21
+    - 26
+    - 33
+    - 42
+    states:
+    - '000'
+    - '001'
+    - '010'
+    - '011'
+    - '100'
+    - '101'
+    - '110'
+    - '111'
+metadata:
+  experiment: 20250718_repcode_d3_exp_lru_v2_cheating
+  init_weights: null
+  run: 20250725-133630_slru_lstm24x2_eval24_b64_dr0-10_lr0-001_injleak2_cheatTrue
+  seed: 2147483648
+model:
+  LSTM:
+    dropout_rates:
+    - 0.1
+    - 0.1
+    units:
+    - 24
+    - 24
+  aux_eval:
+    dropout_rates:
+    - 0.1
+    - null
+    l2_factor: null
+    units:
+    - 24
+    - 1
+  main_eval:
+    dropout_rates:
+    - 0.1
+    - null
+    l2_factor: null
+    units:
+    - 24
+    - 1
+  type: LSTM
+train:
+  batch_size: 64
+  callbacks:
+    checkpoint:
+      mode: min
+      monitor: val_loss
+      save_best_only: true
+    csv_log:
+      append: false
+    early_stop:
+      min_delta: 0
+      mode: min
+      monitor: val_loss
+      patience: 100
+  epochs: 500
+  loss:
+    aux_output: binary_crossentropy
+    main_output: binary_crossentropy
+  loss_weights:
+    aux_output: 0.5
+    main_output: 1.0
+  metrics:
+    aux_output: accuracy
+    main_output: accuracy
+  optimizer:
+    learning_rate: 0.001

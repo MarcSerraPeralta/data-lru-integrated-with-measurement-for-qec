@@ -1,0 +1,233 @@
+dataset:
+  basis: Z
+  distance: 3
+  folder_format_name: stability_a4_r{num_rounds}_s{state}_b{basis}_injleak{injleak}
+  input_names:
+  - defects
+  - leakage_flags
+  - obs-definition-end
+  test:
+    injleak: 3
+    rounds:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    shots: 625
+    states:
+    - '0000'
+    - '0001'
+    - '0010'
+    - '0011'
+    - '0100'
+    - '0101'
+    - '0110'
+    - '0111'
+    - '1000'
+    - '1001'
+    - '1010'
+    - '1011'
+    - '1100'
+    - '1101'
+    - '1110'
+    - '1111'
+  train:
+    injleak: 3
+    rounds:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    states:
+    - '0000'
+    - '0001'
+    - '0010'
+    - '0011'
+    - '0100'
+    - '0101'
+    - '0110'
+    - '0111'
+    - '1000'
+    - '1001'
+    - '1010'
+    - '1011'
+    - '1100'
+    - '1101'
+    - '1110'
+    - '1111'
+  val:
+    injleak: 3
+    rounds:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    states:
+    - '0000'
+    - '0001'
+    - '0010'
+    - '0011'
+    - '0100'
+    - '0101'
+    - '0110'
+    - '0111'
+    - '1000'
+    - '1001'
+    - '1010'
+    - '1011'
+    - '1100'
+    - '1101'
+    - '1110'
+    - '1111'
+metadata:
+  experiment: 20250619_stability7_exp_no_lru_v1
+  init_weights: null
+  run: 20250916-113743_F2PJxZ_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3
+  seed: 3195484437
+model:
+  LSTM:
+    dropout_rates:
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0.05
+    units:
+    - 32
+    - 32
+    - 32
+    - 32
+  main_eval_final:
+    dropout_rates:
+    - 0.05
+    - null
+    l2_factor: null
+    units:
+    - 32
+    - 1
+  type: LSTM-stability
+train:
+  batch_size: 128
+  callbacks:
+    checkpoint:
+      mode: min
+      monitor: val_loss
+      save_best_only: true
+    csv_log:
+      append: false
+    early_stop:
+      min_delta: 0
+      mode: min
+      monitor: val_loss
+      patience: 100
+  epochs: 500
+  loss:
+    main_output: binary_crossentropy
+  loss_weights:
+    aux_output: 0.5
+    main_output: 1.0
+  metrics:
+    main_output: accuracy
+  optimizer:
+    learning_rate: 0.002
