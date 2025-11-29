@@ -1,0 +1,57 @@
+ENSEMBLES_LRU = {
+    "20251022_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak0": [
+        "20251111-194011_bOZ1tS_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak0",
+        "20251111-194011_ubrj17_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak0",
+        "20251111-194011_jagmCq_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak0",
+        "20251111-194011_hacc7o_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak0",
+        "20251111-194011_tpCraS_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak0",
+    ],
+    "20251022_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak0": [],
+    "20251022_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak1": [
+        "20251111-194011_rrVuWv_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak1",
+        "20251111-194011_ZYv1Ad_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak1",
+        "20251111-194011_EcSKXu_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak1",
+        "20251111-194011_P5BBch_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak1",
+        "20251111-194011_IqA9re_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak1",
+    ],
+    "20251022_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak1": [],
+    "20251022_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak2": [
+        "20251111-194011_D4Z9qA_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak2",
+        "20251111-194011_y97qQI_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak2",
+        "20251111-194011_IRJaqO_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak2",
+        "20251111-194011_jMF0MC_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak2",
+        "20251111-194011_Wlh7k5_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak2",
+    ],
+    "20251022_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak2": [],
+    "20251022_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3": [
+        "20251111-194011_ofqU35_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3",
+        "20251111-194011_onkQV8_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3",
+        "20251111-194011_t40p46_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3",
+        "20251111-194011_MiiRC3_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3",
+        "20251111-194011_LP8uG1_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3",
+    ],
+    "20251022_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3": [],
+    "20251022_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak4": [
+        "20251111-194011_fziryB_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak4",
+        "20251111-194011_5C4gwD_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak4",
+        "20251111-194011_pKi4qX_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak4",
+        "20251111-194011_38srq1_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak4",
+        "20251111-194011_t8f3iT_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak4",
+    ],
+    "20251022_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak4": [],
+    "20251022_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5": [
+        "20251120-131202_srQEON_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-131202_FneUKj_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-131202_7joKJV_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-131202_VBG470_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-131202_he1aJS_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+    ],
+    "20251022_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5": [
+        "20251120-131202_Blum7R_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-131202_03rm1j_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-131202_VvityX_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-131202_pqbunK_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-131202_GMBeCu_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+    ],
+}
+

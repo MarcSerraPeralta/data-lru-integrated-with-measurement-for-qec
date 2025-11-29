@@ -1,0 +1,57 @@
+ENSEMBLES_NLRU = {
+    "20251022_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak0": [
+        "20251111-194011_L9ECaS_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak0",
+        "20251111-194011_DONHkt_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak0",
+        "20251111-194011_o9Z82t_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak0",
+        "20251111-194011_zbrr18_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak0",
+        "20251111-194011_aA3QSu_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak0",
+    ],
+    "20251022_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak0": [],
+    "20251022_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak1": [
+        "20251111-194011_5uvEgm_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak1",
+        "20251111-194011_EiqQGM_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak1",
+        "20251111-194011_oHnRA3_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak1",
+        "20251111-194011_0TBBQa_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak1",
+        "20251111-194011_XZIcMT_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak1",
+    ],
+    "20251022_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak1": [],
+    "20251022_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak2": [
+        "20251111-194011_Lts2P2_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak2",
+        "20251111-194011_bbN9dj_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak2",
+        "20251111-194011_8N4EZl_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak2",
+        "20251111-194011_BnZhpU_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak2",
+        "20251111-194011_NNPhjS_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak2",
+    ],
+    "20251022_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak2": [],
+    "20251022_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3": [
+        "20251111-194011_6noewc_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3",
+        "20251111-194011_3pbjLi_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3",
+        "20251111-194011_PACvWm_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3",
+        "20251111-194011_TfPDxx_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3",
+        "20251111-194011_H5pZ4t_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3",
+    ],
+    "20251022_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak3": [],
+    "20251022_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak4": [
+        "20251111-194011_bBALgl_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak4",
+        "20251111-194011_Cdz703_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak4",
+        "20251111-194011_oGt55r_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak4",
+        "20251111-194011_Fpbawd_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak4",
+        "20251111-194011_viWgWL_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak4",
+    ],
+    "20251022_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak4": [],
+    "20251022_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5": [
+        "20251120-130355_uasEYu_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-130355_ciCZ31_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-130355_pQmAGL_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-130355_Hm0lQV_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-130355_M1OnVp_slru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+    ],
+    "20251022_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5": [
+        "20251120-130355_GMa4sR_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-130355_rcPn4Q_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-130355_uDbb4e_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-130355_wgkPjh_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+        "20251120-130355_EkXgs5_nslru_lstm32x4_eval32_b128_dr0-05_lr0-002_obs-end_injleak5",
+    ],
+}
+
